@@ -1,0 +1,35 @@
+.footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer-text{
+    line-height: 1.5;
+}
+.footer-text h1{
+    font-size: 2.8rem;
+    font-weight: 100;
+}
+
+.footer-text p{
+   font-size: 20px;
+   font-weight: 200;
+}
+
+@media (max-width: 550px) {
+    .footer-text h1{
+        font-size: 2rem;
+    }
+
+    .footer-text p{
+        font-size: 15px;
+    }
+}
+
+
+
+

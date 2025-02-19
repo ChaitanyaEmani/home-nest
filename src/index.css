@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', serif;
+}
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.btn{
+  border: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.btn:hover{
+  background: #1f3745;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.sub{
+  color: #1f3745;
+  text-align: center;
+}
+
+.properties{
+  
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+
+.property{
+  margin-top: 5%;
+}
+
+.next-btn, .back-btn{
+  position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #1f3745;
+} 
+
+ .back-btn{
+  right: auto;
+  left: 0;
+  margin-left: 8rem;
+}
+
+.next-btn{
+  margin-right: 8rem;
+}
+
+.slider{
+  overflow: hidden;
+ 
+  
+} 
+
+.slider ul{
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 300%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  gap: 1rem;
+  transform: translateX(-14.28%);
+}
+
+.slider ul li{
+ 
+  list-style: none;
+}
+
+.property{
+  margin-top: 2rem;
+}
+.card-info {
+  border: 2px solid #1f3745;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 450px;
+  height: 500px;
+  /* box-shadow: 5px 5px 15px #1f3745; */
+}
+
+.card-info img{
+  width: 100%;
+  max-width: 375px;
+  height: 325px;
+  border-radius: 5px;
+}
+
+
+.card-text{
+  margin-top: 2%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.card-text p{
+  padding-top: 10px;
+}
+
+.card-name{
+  margin-left: 6rem;
+  font-size: 1.2rem;
+  color: #1f3745;
+}
+

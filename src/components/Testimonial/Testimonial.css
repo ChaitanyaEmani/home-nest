@@ -1,0 +1,44 @@
+
+.slider-1{
+    overflow: hidden;
+    margin-top: 2rem;
+  }
+  
+  .slider-1 ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    gap: 2rem;
+    transform: translateX(-25%);
+  }
+  
+  .slider-1 ul li{
+   
+    list-style: none;
+  }
+  
+  .card-info-1 {
+    border: 2px solid #1f3745;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .card-info-1 img{
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%;
+    border: 5px solid #1f3745;
+  }
+  
+  
+  .card-text-1{
+    margin-top: 2%;
+    line-height: 1.4;
+    text-align: left;
+  }
+  
+  .card-text-1 p{
+    padding-top: 10px;
+  }
+  
+  
