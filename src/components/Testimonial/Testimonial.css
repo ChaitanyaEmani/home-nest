@@ -14,14 +14,20 @@
   }
   
   .slider-1 ul li{
-   
+    margin: 1rem;
     list-style: none;
+  }
+
+  .slider-1 ul li:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
   }
   
   .card-info-1 {
-    border: 2px solid #1f3745;
+    /* border: 2px solid #1f3745; */
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 5px 8px 14px #888888;
   }
   .card-info-1 img{
     width: 100%;
